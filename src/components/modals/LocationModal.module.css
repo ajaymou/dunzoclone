@@ -1,0 +1,83 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 20;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.modal {
+  color: black;
+  position: fixed;
+  top: 5vh;
+  left: 30%;
+  width: 40%;
+  z-index: 100;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  animation: slide-down 300ms ease-out forwards;
+}
+
+.modal h3 {
+  display: inline;
+}
+
+.modal button {
+  float: right;
+  background-color: #fff;
+  border: none;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.modal input {
+  display: block;
+  padding: 15px 20px;
+  margin-top: 15px;
+  width: 100%;
+  border: 1px solid rgb(184, 179, 179);
+  border-radius: 15px;
+  outline: none;
+  font-size: 16px;
+}
+
+.modal img {
+  width: 250px;
+  height: auto;
+  margin: 130px 25%;
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .modal {
+    top: 0vh;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+}
+
+/* ipads */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .modal {
+    top: 10vh;
+    left: 15%;
+    width: 70%;
+    height: 70%;
+  }
+}

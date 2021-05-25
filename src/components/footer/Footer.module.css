@@ -1,0 +1,101 @@
+.footer {
+  background-color: #171e30;
+  padding: 20px 15%;
+  margin-top: 15px;
+  color: white;
+}
+
+.info h3 {
+  font-size: 16px;
+}
+
+.info p {
+  font-size: 14px;
+  color: #b7bac3;
+}
+
+.info {
+  padding: 20px 0px;
+}
+
+.dunzo {
+  width: 70px;
+  height: 70px;
+  display: inline;
+}
+
+li {
+  font-size: 14px;
+  list-style: none;
+}
+ul {
+  padding: 0%;
+}
+
+li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.links_section {
+  display: flex;
+  margin-top: 50px;
+}
+
+.links1 {
+  position: relative;
+  display: inline;
+  line-height: 30px;
+  margin-left: 80px;
+  text-align: left;
+}
+
+.links1 p {
+  font-size: 16px;
+  margin-top: 0%;
+  padding-top: 0%;
+  font-weight: bolder;
+}
+
+.links_section p a {
+  display: inline;
+}
+
+.links_section .div1 {
+  display: inline;
+}
+
+.driver {
+  width: 260px;
+  height: 200px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .footer {
+    padding: 0% 5%;
+    font-size: 14px;
+    margin: 0%;
+  }
+  .footer .driver,
+  .dunzo {
+    display: none;
+  }
+
+  .footer .links1 {
+    margin: 0%;
+    margin-left: 15px;
+  }
+}
+
+/* ipads */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .footer {
+    padding: 0% 5%;
+    font-size: 18px;
+    margin: 0%;
+  }
+  .footer .links1 {
+    margin: 0%;
+    margin-left: 20px;
+  }
+}

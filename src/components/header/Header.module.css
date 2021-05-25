@@ -1,0 +1,192 @@
+.navBar {
+  height: 70px;
+  width: 70%;
+  margin: 0px auto;
+  font-size: 14px;
+  background-color: #ffff;
+  padding: 20px 0px;
+  border-bottom: 1px solid aqua;
+}
+
+.navBar p {
+  display: inline-block;
+  margin-bottom: 9px;
+  cursor: pointer;
+}
+
+.navBar p {
+  position: absolute;
+  display: inline-block;
+  margin: 4px 3px;
+  font-weight: bolder;
+}
+
+.logo {
+  width: 130px;
+  height: auto;
+  display: inline;
+  cursor: pointer;
+}
+
+.cart {
+  height: 30px;
+  width: auto;
+  float: right;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.btn {
+  float: right;
+  background-color: #00d290;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.links {
+  text-decoration: none;
+  float: right;
+  color: rgba(8, 8, 8, 0.808);
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  font-size: ;
+  font-weight: bolder;
+  margin: 5px 15px;
+}
+
+.links1 {
+  float: right;
+  color: rgba(8, 8, 8, 0.808);
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bolder;
+  margin: 9px 15px;
+}
+
+.links:hover {
+  color: #00d290;
+}
+
+.svg {
+  width: 15px;
+  height: auto;
+  margin-left: 10px;
+  margin-bottom: 9px;
+  cursor: pointer;
+}
+
+.svg-arrow {
+  width: 13px;
+  height: auto;
+  margin-left: 100px;
+  margin-bottom: 8.5px;
+  cursor: pointer;
+}
+
+.dot {
+  display: none;
+}
+
+/* mobiles phonse */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .logo {
+    display: none;
+  }
+  .navBar {
+    width: 100%;
+    padding-right: 5%;
+  }
+  .cart {
+    height: 25px;
+    width: auto;
+    margin-right: 10px;
+  }
+
+  .links {
+    display: none;
+    float: right;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-bottom: -15px;
+  }
+
+  .links.show {
+    display: block;
+    float: right;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-bottom: -5px;
+    border: 1px solid #00d290;
+    background-color: #00d290;
+    padding: 3px;
+    border-radius: 4px;
+    color: white;
+  }
+
+  .linkdiv {
+    background-color: aqua;
+  }
+
+  .links1 {
+    margin-top: -10px;
+  }
+
+  .dot {
+    display: inline;
+    height: 20px;
+    float: right;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+}
+
+/* ipads */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .dot {
+    display: inline;
+    height: 20px;
+    float: right;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+
+  .logo {
+    margin-left: 20px;
+  }
+  .navBar {
+    width: 100%;
+    padding-right: 5%;
+  }
+  .cart {
+    height: 25px;
+    width: auto;
+    margin-right: 10px;
+  }
+
+  .links {
+    display: none;
+    float: right;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-bottom: -15px;
+  }
+
+  .links.show {
+    display: block;
+    float: right;
+    margin-top: 25px;
+    margin-left: 150px;
+    margin-bottom: -5px;
+    border: 1px solid #00d290;
+    background-color: #00d290;
+    padding: 3px;
+    border-radius: 4px;
+    color: white;
+  }
+}

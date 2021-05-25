@@ -1,0 +1,116 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.modal {
+  color: black;
+  position: fixed;
+  top: 25vh;
+  left: 35%;
+  width: 30%;
+  z-index: 100;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  animation: slide-down 300ms ease-out forwards;
+}
+
+.modal img {
+  display: inline;
+  width: 60px;
+  height: auto;
+}
+
+.modal h3 {
+  line-height: 0%;
+}
+
+.modal label {
+  color: #808594;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.modal input[type="number"] {
+  width: 100%;
+  padding: 15px 10px;
+  border: 1px solid #a1a3ac;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  outline: none;
+  font-size: 16px;
+}
+
+.modal input[type="checkbox"] {
+  display: inline;
+}
+
+.modal .terms {
+  display: inline;
+}
+
+.modal button {
+  float: right;
+  background-color: #00d290;
+  border: none;
+  color: white;
+  padding: 6px 9px;
+  border-radius: 10px;
+}
+
+.modal .btn {
+  width: 100%;
+  margin-top: 10px;
+  display: block;
+  padding: 20px;
+  background-color: #00d290;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+}
+
+/* @media (min-width: 768px) {
+    .modal {
+      width: 35%;
+      left: calc(35% - 20rem);
+    }
+  } */
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .modal {
+    top: 0vh;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+}
+
+/* ipads */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .modal {
+    top: 15vh;
+    left: 20%;
+    width: 60%;
+    height: auto;
+  }
+}

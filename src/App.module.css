@@ -1,0 +1,38 @@
+.app {
+  width: 100%;
+  margin: 0px auto;
+  padding: 0%;
+}
+
+.app h1 {
+  font-size: 28px;
+  color: #0f1938;
+  margin-top: 40px;
+}
+
+.app Footer {
+  width: 100%;
+}
+
+/* mobiles phonse */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .app h1 {
+    font-size: 16px;
+    margin-top: 0px;
+  }
+  .app {
+    width: 100%;
+  }
+}
+
+/* ipads */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .app h1 {
+    font-size: 24px;
+    margin-top: 0px;
+  }
+  .app {
+    width: 100%;
+  }
+}

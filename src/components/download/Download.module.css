@@ -1,0 +1,103 @@
+.download_section .mobile {
+  width: 176px;
+  height: 240px;
+  margin-top: 60px;
+  margin-left: 250px;
+  margin-bottom: 8px;
+}
+.download_section {
+  width: 70%;
+  margin: 0px auto;
+}
+.download_section p {
+  display: inline;
+  position: absolute;
+  margin-top: 130px;
+  color: #2d3444;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.download_section img {
+  display: inline-block;
+  width: auto;
+  height: 50px;
+}
+
+.dbtn {
+  margin-left: 430px;
+  margin-top: -85px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .download_section .mobile {
+    display: block;
+    width: 90px;
+    height: 120px;
+    margin-left: 10px;
+    margin-top: 120px;
+    margin-bottom: px;
+    position: relative;
+  }
+
+  .download_section {
+    margin-bottom: 100px;
+    margin-top: 50px;
+  }
+
+  .download_section p {
+    display: inline;
+    position: absolute;
+    margin-top: 0px;
+    color: #2d3444;
+    font-size: 12px;
+    font-weight: bolder;
+  }
+
+  .download_section img {
+    display: inline-block;
+    width: auto;
+    height: 25px;
+  }
+
+  .dbtn {
+    margin-left: 100px;
+  }
+}
+
+/* ipads */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .download_section .mobile {
+    display: block;
+    width: 180px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 120px;
+    margin-bottom: px;
+    position: relative;
+  }
+
+  .download_section {
+    margin-bottom: 130px;
+    margin-top: 50px;
+  }
+
+  .download_section p {
+    display: inline;
+    position: absolute;
+    margin-top: 0px;
+    color: #2d3444;
+    font-size: 24px;
+    font-weight: bolder;
+  }
+
+  .download_section img {
+    display: inline-block;
+    width: auto;
+    height: 45px;
+  }
+
+  .dbtn {
+    margin-left: 200px;
+  }
+}
