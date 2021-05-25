@@ -11,7 +11,7 @@ const App = () => {
       <Router>
         <Header />
         <Switch>
-          <Route exact path="/dunzoclone">
+          <Route exact path="/dunzoclone/">
             <Home />
           </Route>
           <Route path="/partner">
