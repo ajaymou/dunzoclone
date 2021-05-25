@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/dunzoclone/static/css/main.e4c24d42.chunk.css",
-    "main.js": "/dunzoclone/static/js/main.5952c2c3.chunk.js",
-    "main.js.map": "/dunzoclone/static/js/main.5952c2c3.chunk.js.map",
+    "main.js": "/dunzoclone/static/js/main.dd0ae07f.chunk.js",
+    "main.js.map": "/dunzoclone/static/js/main.dd0ae07f.chunk.js.map",
     "runtime-main.js": "/dunzoclone/static/js/runtime-main.2bcaddbd.js",
     "runtime-main.js.map": "/dunzoclone/static/js/runtime-main.2bcaddbd.js.map",
-    "static/js/2.db1eeef2.chunk.js": "/dunzoclone/static/js/2.db1eeef2.chunk.js",
-    "static/js/2.db1eeef2.chunk.js.map": "/dunzoclone/static/js/2.db1eeef2.chunk.js.map",
+    "static/js/2.8650aa99.chunk.js": "/dunzoclone/static/js/2.8650aa99.chunk.js",
+    "static/js/2.8650aa99.chunk.js.map": "/dunzoclone/static/js/2.8650aa99.chunk.js.map",
     "index.html": "/dunzoclone/index.html",
     "static/css/main.e4c24d42.chunk.css.map": "/dunzoclone/static/css/main.e4c24d42.chunk.css.map",
-    "static/js/2.db1eeef2.chunk.js.LICENSE.txt": "/dunzoclone/static/js/2.db1eeef2.chunk.js.LICENSE.txt",
+    "static/js/2.8650aa99.chunk.js.LICENSE.txt": "/dunzoclone/static/js/2.8650aa99.chunk.js.LICENSE.txt",
     "static/media/app.cf079bec.png": "/dunzoclone/static/media/app.cf079bec.png",
     "static/media/appstore.3cc1757e.jpg": "/dunzoclone/static/media/appstore.3cc1757e.jpg",
     "static/media/arrow.fed8b0e5.svg": "/dunzoclone/static/media/arrow.fed8b0e5.svg",
@@ -33,8 +33,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2bcaddbd.js",
-    "static/js/2.db1eeef2.chunk.js",
+    "static/js/2.8650aa99.chunk.js",
     "static/css/main.e4c24d42.chunk.css",
-    "static/js/main.5952c2c3.chunk.js"
+    "static/js/main.dd0ae07f.chunk.js"
   ]
 }
