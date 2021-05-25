@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/dunzoclone/static/css/main.e4c24d42.chunk.css",
+    "main.js": "/dunzoclone/static/js/main.5952c2c3.chunk.js",
+    "main.js.map": "/dunzoclone/static/js/main.5952c2c3.chunk.js.map",
+    "runtime-main.js": "/dunzoclone/static/js/runtime-main.2bcaddbd.js",
+    "runtime-main.js.map": "/dunzoclone/static/js/runtime-main.2bcaddbd.js.map",
+    "static/js/2.db1eeef2.chunk.js": "/dunzoclone/static/js/2.db1eeef2.chunk.js",
+    "static/js/2.db1eeef2.chunk.js.map": "/dunzoclone/static/js/2.db1eeef2.chunk.js.map",
+    "index.html": "/dunzoclone/index.html",
+    "static/css/main.e4c24d42.chunk.css.map": "/dunzoclone/static/css/main.e4c24d42.chunk.css.map",
+    "static/js/2.db1eeef2.chunk.js.LICENSE.txt": "/dunzoclone/static/js/2.db1eeef2.chunk.js.LICENSE.txt",
+    "static/media/app.cf079bec.png": "/dunzoclone/static/media/app.cf079bec.png",
+    "static/media/appstore.3cc1757e.jpg": "/dunzoclone/static/media/appstore.3cc1757e.jpg",
+    "static/media/arrow.fed8b0e5.svg": "/dunzoclone/static/media/arrow.fed8b0e5.svg",
+    "static/media/bike.4a395a07.png": "/dunzoclone/static/media/bike.4a395a07.png",
+    "static/media/cart.fc757798.png": "/dunzoclone/static/media/cart.fc757798.png",
+    "static/media/dot.abcf5b1b.png": "/dunzoclone/static/media/dot.abcf5b1b.png",
+    "static/media/driver.f71a5f71.png": "/dunzoclone/static/media/driver.f71a5f71.png",
+    "static/media/dunzo.5b7c329b.png": "/dunzoclone/static/media/dunzo.5b7c329b.png",
+    "static/media/img1.fab49aaf.png": "/dunzoclone/static/media/img1.fab49aaf.png",
+    "static/media/img2.41aefd2c.png": "/dunzoclone/static/media/img2.41aefd2c.png",
+    "static/media/img3.3a3a0a59.jpg": "/dunzoclone/static/media/img3.3a3a0a59.jpg",
+    "static/media/img4.cba2e685.png": "/dunzoclone/static/media/img4.cba2e685.png",
+    "static/media/location-pin.8c4d4348.svg": "/dunzoclone/static/media/location-pin.8c4d4348.svg",
+    "static/media/location.2e096405.png": "/dunzoclone/static/media/location.2e096405.png",
+    "static/media/logo.635c0ef7.png": "/dunzoclone/static/media/logo.635c0ef7.png",
+    "static/media/p1.7638c0f1.jpg": "/dunzoclone/static/media/p1.7638c0f1.jpg",
+    "static/media/p2.2665a960.jpg": "/dunzoclone/static/media/p2.2665a960.jpg",
+    "static/media/p3.23e0b34b.jpg": "/dunzoclone/static/media/p3.23e0b34b.jpg",
+    "static/media/p4.722d2fa8.jpg": "/dunzoclone/static/media/p4.722d2fa8.jpg",
+    "static/media/playstore.0b562bd2.jpg": "/dunzoclone/static/media/playstore.0b562bd2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2bcaddbd.js",
+    "static/js/2.db1eeef2.chunk.js",
+    "static/css/main.e4c24d42.chunk.css",
+    "static/js/main.5952c2c3.chunk.js"
+  ]
+}
